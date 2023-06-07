@@ -10,7 +10,8 @@
   "contact": {
     "sources": "https://github.com/mattieof/LeashableVillagers",
     "homepage": "https://modrinth.com/mod/leashable-villagers",
-    "repo": "https://github.com/mattieof/LeashableVillagers"
+    "repo": "https://github.com/mattieof/LeashableVillagers",
+    "issues": "https://github.com/MattieOF/LeashableVillagers/issues"
   },
   "license": "MIT",
   "icon": "assets/leashablevillagers/icon.png",

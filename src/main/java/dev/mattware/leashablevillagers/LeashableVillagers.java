@@ -9,6 +9,9 @@ public class LeashableVillagers implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        // After all of that, I don't even need it... but I'll keep it in the code, as a memory
+        // CriteriaMixin.callRegister(new EntityLeashedCriterion());
+
         LOGGER.info("Leashable Villagers has initialised. You're awful.");
     }
 }

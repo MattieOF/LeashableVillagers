@@ -20,7 +20,17 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
+    // Make a collection of all api modules we wish to use
+    Set<String> apiModules = [
+            "fabric-api-base",
+            "fabric-resource-loader-v0"
+    ]
+
+    // Add each module as a dependency
+    apiModules.forEach {
+        include(modImplementation(fabricApi.module(it, fabric_version)))
     }
+}
 
 processResources {
     inputs.property "version", project.version

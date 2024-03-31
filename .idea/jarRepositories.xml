@@ -17,6 +17,16 @@
       <option name="url" value="https://repo.maven.apache.org/maven2/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://maven.architectury.dev/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Forge" />
+      <option name="name" value="Forge" />
+      <option name="url" value="https://maven.minecraftforge.net/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="LoomLocalRemappedMods" />
       <option name="name" value="LoomLocalRemappedMods" />
       <option name="url" value="file:/$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/" />
@@ -37,14 +47,14 @@
       <option name="url" value="file:/$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="LoomTransformedForgeDependencies" />
+      <option name="name" value="LoomTransformedForgeDependencies" />
+      <option name="url" value="file:/$USER_HOME$/.gradle/caches/fabric-loom/forge/transformed-dependencies-v1/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="LoomGlobalMinecraft" />
       <option name="name" value="LoomGlobalMinecraft" />
       <option name="url" value="file:/$USER_HOME$/.gradle/caches/fabric-loom/minecraftMaven/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="LoomLocalMinecraft" />
-      <option name="name" value="LoomLocalMinecraft" />
-      <option name="url" value="file:/$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/" />
     </remote-repository>
   </component>
 </project>

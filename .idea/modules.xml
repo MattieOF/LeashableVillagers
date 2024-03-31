@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LeashableVillagers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/LeashableVillagers.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LeashableVillagers.test.iml" filepath="$PROJECT_DIR$/.idea/modules/LeashableVillagers.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/LeashableVillagers.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/LeashableVillagers.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/LeashableVillagers.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/LeashableVillagers.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/LeashableVillagers.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/LeashableVillagers.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/LeashableVillagers.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/LeashableVillagers.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/LeashableVillagers.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/LeashableVillagers.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/LeashableVillagers.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/LeashableVillagers.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/LeashableVillagers.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/LeashableVillagers.forge.test.iml" />
     </modules>
   </component>
 </project>

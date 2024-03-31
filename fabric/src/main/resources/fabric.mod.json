@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "leashablevillagers",
+  "version": "${version}",
+  "name": "Leashable Villagers",
+  "description": "Allows villagers to be leashed. Do not think about the moral implications.",
+  "authors": [
+    "Matt Ware"
+  ],
+  "contact": {
+    "sources": "https://github.com/mattieof/LeashableVillagers",
+    "homepage": "https://modrinth.com/mod/leashable-villagers",
+    "repo": "https://github.com/mattieof/LeashableVillagers",
+    "issues": "https://github.com/MattieOF/LeashableVillagers/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/leashablevillagers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.mattware.leashablevillagers.fabric.LeashableVillagersFabric"
+    ]
+  },
+  "mixins": [
+    "leashablevillagers-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": ">=1.20.4"
+  }
+}

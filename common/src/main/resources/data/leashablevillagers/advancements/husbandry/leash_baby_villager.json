@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lead"
+      "id": "minecraft:lead"
     },
     "title": "Deplorable Ethics",
     "description": "Put a Baby Villager on a Leash",
